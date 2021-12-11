@@ -95,37 +95,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html {
-  background-color: #fff;
+section {
+  background: url('../img/sunflower.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: #fffae6;
+  padding: 2em;
+  font-size: 1.2em;
   height: 100%;
-  width: 100%;
-}
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
-  font-size: 1.25em;
-  height: 100%;
-  color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  border: 6px #fffae6 solid;
+  height: 70px;
   width: 100%;
+  font-size: 2em;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 main {
-  background-color: #ccc;
+  border: 6px #fffae6 solid;
   height: 250px;
   width: 100%;
+  font-size: 2em;
+  font-weight: 400;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 header,
 footer,
 main {
-
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 1.6em;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
 
 }
 
@@ -139,15 +151,19 @@ main {
 }
 
 .flex-items {
-  color: #fff;
+  font-family: 'fuzzy bubbles' cursive;
+  color: black;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  font-weight: 700;
+  background-color: #e68a00;
   width: 30%;
-  height: 300px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 20px 20px 20px;
+
 
 }
 
